@@ -1,0 +1,107 @@
+body {
+   .btnvendre {
+      border: solid 1px border-color:black;
+   }
+
+   .card {
+      border-radius: 0px;
+   }
+
+}
+
+
+
+.nav-style {
+   display: flex;
+   flex-direction:column;
+   list-style-type: none;
+ 
+
+
+
+}
+
+
+nav a {
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-weight:600;
+   font-size:1.1em;
+   line-height:2;
+
+
+}
+
+.filtres {
+   display:flex;
+   justify-content:space-between;
+   height:55px;
+}
+
+/* header nav li {
+   padding: 0 35px;
+   height: 7vh;
+   line-height: 7vh;
+
+} */
+
+ nav li:hover {
+   color:rgb(0, 87, 49);
+
+}
+
+.menug {
+   display:flex;
+   flex-direction:column;
+   width:300px;
+
+}
+
+ .listck {
+   display:flex;
+   flex-direction:column;
+}
+
+.p2 {
+   font-weight:600;
+   font-size:large;
+}
+
+.p3 {
+
+   font-weight:600;
+   font-size:1.1em;
+   color:rgb(0, 87, 49);
+   text-align: center;
+}  
+
+.p4 {
+   border:solid 1px;
+   padding-top:6px;
+   padding-right:30px;
+   padding-bottom:6px;
+   padding-left:30px;
+}
+
+.cases {
+   display:flex;
+   flex-wrap:wrap;
+}
+
+.casetaille {
+   width:30px;
+   height:26px;
+   margin-top:2px;
+   margin-right:4px;
+   margin-bottom:2px;
+   margin-left:4px;
+   display:flex;
+   align-items:flex-start;
+   justify-content:center;
+   border:solid 1px;
+   display:flex;
+}
+
+.blfdroit {
+   display:flex;
+}
